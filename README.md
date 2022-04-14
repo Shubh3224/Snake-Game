@@ -1,6 +1,3 @@
-The snake is represented with a 0(zero) symbol.
-The fruit is represented with an *(asterisk) symbol.
-For movements (W, A, S, D keys).
-When the snake eats a fruit the score will increase by 10 points.
-The fruit will generate automatically within the boundaries.
-Whenever the snake will touch the boundary the game is over.
+The various coordinates in the screen have the food for the snake to eat, and when the snake eats food, it gains length by one element. The player gets their score increased according to the food that the snake consumes.
+
+Three lives are given for the player, and when it is over the game will be terminated automatically
